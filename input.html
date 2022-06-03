@@ -11,20 +11,18 @@
       <h1>Create</h1>
     </header>
     <main>
-      <form action="">
-        <h2><label for="">Add question</label></h2>
-        <textarea id="question" name="question" rows="4" cols="30"></textarea>
-        <h2><label for="">Add answer</label></h2>
-        <textarea id="question" name="tags" rows="4" cols="30"></textarea>
-        <h2><label for="">Add tags</label></h2>
-        <textarea
-          id="tags"
-          name="tags"
-          rows="1"
-          cols="30"
-          placeholder="Add tags divided by comma."
-        ></textarea>
-        <input type="submit" value="Submit" />
+      <form aria-label="Create a new question card">
+        <label for="question">Add question (required)</label>
+        <textarea id="question" rows="5" required></textarea>
+
+        <label for="answer">Add answer (required)</label>
+        <textarea id="answer" rows="5" required></textarea>
+
+        <label for="tags">Add tags (required)</label>
+        <input id="tags" type="text" aria-describedby="add-tags" required />
+        <p id="add-tags">Add tags divided by comma.</p>
+
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
