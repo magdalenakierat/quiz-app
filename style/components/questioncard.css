@@ -1,0 +1,43 @@
+article {
+  padding: 1rem;
+  border: 1px solid;
+  grid-column: 1/5;
+  display: flex;
+  flex-direction: column;
+  position: relative; /*Wichtig, damit das child nicht relativ zum body, sondern zum direkten Elternelement positioniert wird!*/
+}
+
+/* .bookmark {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid;
+  top: -1rem;
+  right: 1rem;
+} */
+
+.material-symbols-outlined {
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0 0.25rem 0;
+}
+
+.tag-list li {
+  border: 1px solid;
+  border-radius: 1rem;
+  list-style-type: none;
+  padding: 0.25rem 1rem;
+  margin: 0 1rem 0.25rem 0;
+}
+
+.show-button {
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}

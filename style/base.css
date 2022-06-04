@@ -3,12 +3,26 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
-  padding: 0px 16px;
+  padding: 0 1rem;
   width: 100vw;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: initial;
 }
