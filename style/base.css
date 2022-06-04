@@ -9,13 +9,14 @@ html {
 }
 
 body {
-  padding: 0 1rem;
   width: 100vw;
+  background-color: darkslateblue;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 1rem;
 }
 
 p {
@@ -24,5 +25,5 @@ p {
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  line-height: initial;
+  line-height: 1.2rem;
 }
