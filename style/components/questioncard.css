@@ -1,11 +1,12 @@
 article {
   background-color: whitesmoke;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   margin: 0.5rem 0;
   grid-column: 1/5;
   display: flex;
   flex-direction: column;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   position: relative; /*Wichtig, damit das child nicht relativ zum body, sondern zum direkten Elternelement positioniert wird!*/
 }
 
@@ -24,8 +25,15 @@ article:last-of-type {
 
 article .material-symbols-outlined {
   position: absolute;
-  top: -0.5rem;
+  top: -0.4rem;
   right: 1rem;
+  color: darkslateblue;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 2rem;
+}
+
+article .material-symbols-outlined.not-selected {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 .tag-list {
@@ -39,7 +47,7 @@ article .material-symbols-outlined {
   border-radius: 1rem;
   list-style-type: none;
   padding: 0.25rem 1rem;
-  margin: 0 1rem 0.25rem 0;
+  margin: 0 0.5rem 0.25rem 0;
 }
 
 .show-button {

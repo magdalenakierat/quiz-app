@@ -5,6 +5,7 @@ header {
 }
 
 h1 {
-  padding-top: 1rem;
-  color: whitesmoke;
+  padding-top: 1.5rem;
+  color: darkslateblue;
+  text-transform: uppercase;
 }
