@@ -19,3 +19,8 @@ nav .material-symbols-outlined {
 nav a {
   color: darkslateblue;
 }
+
+nav a.current {
+  color: white;
+  background-color: darkslateblue;
+}
