@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
     <title>Quiz-App | Profile</title>
   </head>
   <body>
@@ -16,15 +12,14 @@
       <h1>Profile</h1>
     </header>
     <main>
-      <ul class="profile-header">
-        <li>
-          <img
-            src="https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Profile image"
-          />
-        </li>
-        <li><h2>Firstname Lastname</h2></li>
-      </ul>
+      <header class="profile-header">
+        <img
+          class="profile-image"
+          src="https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Profile image"
+        />
+        <h2>Firstname Lastname</h2>
+      </header>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
         perferendis tempora voluptatem blanditiis voluptate illum placeat amet
@@ -38,22 +33,34 @@
         <li>Tag 3</li>
         <li>Tag 4</li>
       </ul>
-      <button class="show-button">Logout</button>
+      <button class="button">Logout</button>
     </main>
     <footer>
       <nav>
-        <a href="./index.html"
-          ><span class="material-symbols-outlined"> home </span></a
-        >
-        <a href="./bookmark.html"
-          ><span class="material-symbols-outlined"> bookmark </span></a
-        >
-        <a href="./input.html"
-          ><span class="material-symbols-outlined"> edit </span></a
-        >
-        <a href="./profile.html" class="current"
-          ><span class="material-symbols-outlined"> account_circle </span></a
-        >
+        <ul class="navigation">
+          <li>
+            <a href="./index.html"
+              ><span class="material-symbols-outlined"> home </span></a
+            >
+          </li>
+          <li>
+            <a href="./bookmark.html"
+              ><span class="material-symbols-outlined"> bookmark </span></a
+            >
+          </li>
+          <li>
+            <a href="./input.html"
+              ><span class="material-symbols-outlined"> edit </span></a
+            >
+          </li>
+          <li class="current">
+            <a href="./profile.html"
+              ><span class="material-symbols-outlined">
+                account_circle
+              </span></a
+            >
+          </li>
+        </ul>
       </nav>
     </footer>
   </body>

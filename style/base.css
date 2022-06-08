@@ -4,19 +4,14 @@
   padding: 0;
 }
 
-html {
+body {
+  width: 100vw;
+  background-color: lavender;
   font-family: "Roboto", sans-serif;
   color: rgb(30, 30, 30);
 }
 
-body {
-  width: 100vw;
-  background-color: lavender;
-}
-
 main {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; */
   display: flex;
   flex-direction: column;
   padding: 0 1rem;
@@ -24,7 +19,6 @@ main {
 
 p {
   margin: 1rem 0;
-  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -37,11 +31,7 @@ p {
   align-items: center;
 }
 
-.profile-header li {
-  list-style-type: none;
-}
-
-.profile-header li img {
+.profile-image {
   width: 100px;
   margin-right: 1rem;
   border-radius: 1rem;

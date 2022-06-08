@@ -7,21 +7,12 @@ article {
   display: flex;
   flex-direction: column;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-  position: relative; /*Wichtig, damit das child nicht relativ zum body, sondern zum direkten Elternelement positioniert wird!*/
+  position: relative;
 }
 
 article:last-of-type {
   margin-bottom: 5rem;
 }
-
-/* .bookmark {
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid;
-  top: -1rem;
-  right: 1rem;
-} */
 
 article .material-symbols-outlined {
   position: absolute;
@@ -50,7 +41,7 @@ article .material-symbols-outlined.not-selected {
   margin: 0 0.5rem 0.25rem 0;
 }
 
-.show-button {
+.button {
   margin: 0.5rem auto;
   font-size: 1rem;
   padding: 0.5rem 1rem;
