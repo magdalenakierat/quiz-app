@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  padding-top: 1.5rem;
+  color: darkslateblue;
+  text-transform: uppercase;
+}

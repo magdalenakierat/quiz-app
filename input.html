@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Quiz-App | Create</title>
   </head>
   <body>
@@ -22,15 +23,35 @@
         <input id="tags" type="text" aria-describedby="add-tags" required />
         <p id="add-tags">Add tags divided by comma.</p>
 
-        <button type="submit">Submit</button>
+        <button class="button" type="submit">Submit</button>
       </form>
     </main>
     <footer>
       <nav>
-        <a href="./index.html">Home</a>
-        <a href="./bookmark.html">Bookmark</a>
-        <a href="./input.html">Input</a>
-        <a href="./profile.html">Profile</a>
+        <ul class="navigation">
+          <li>
+            <a href="./index.html"
+              ><span class="material-symbols-outlined"> home </span></a
+            >
+          </li>
+          <li>
+            <a href="./bookmark.html"
+              ><span class="material-symbols-outlined"> bookmark </span></a
+            >
+          </li>
+          <li class="current">
+            <a href="./input.html"
+              ><span class="material-symbols-outlined"> edit </span></a
+            >
+          </li>
+          <li>
+            <a href="./profile.html"
+              ><span class="material-symbols-outlined">
+                account_circle
+              </span></a
+            >
+          </li>
+        </ul>
       </nav>
     </footer>
   </body>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Quiz-App | Profile</title>
   </head>
   <body>
@@ -11,8 +12,14 @@
       <h1>Profile</h1>
     </header>
     <main>
-      <img src="#" alt="Profile image" />
-      <h2>Firstname Lastname</h2>
+      <header class="profile-header">
+        <img
+          class="profile-image"
+          src="https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Profile image"
+        />
+        <h2>Firstname Lastname</h2>
+      </header>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
         perferendis tempora voluptatem blanditiis voluptate illum placeat amet
@@ -20,18 +27,40 @@
         sed!
       </p>
       <h3>Skills</h3>
-      <div>Tag 1</div>
-      <div>Tag 2</div>
-      <div>Tag 3</div>
-      <div>Tag 4</div>
-      <button>Logout</button>
+      <ul class="tag-list">
+        <li>Tag 1</li>
+        <li>Tag 2</li>
+        <li>Tag 3</li>
+        <li>Tag 4</li>
+      </ul>
+      <button class="button">Logout</button>
     </main>
     <footer>
       <nav>
-        <a href="./index.html">Home</a>
-        <a href="./bookmark.html">Bookmark</a>
-        <a href="./input.html">Input</a>
-        <a href="./profile.html">Profile</a>
+        <ul class="navigation">
+          <li>
+            <a href="./index.html"
+              ><span class="material-symbols-outlined"> home </span></a
+            >
+          </li>
+          <li>
+            <a href="./bookmark.html"
+              ><span class="material-symbols-outlined"> bookmark </span></a
+            >
+          </li>
+          <li>
+            <a href="./input.html"
+              ><span class="material-symbols-outlined"> edit </span></a
+            >
+          </li>
+          <li class="current">
+            <a href="./profile.html"
+              ><span class="material-symbols-outlined">
+                account_circle
+              </span></a
+            >
+          </li>
+        </ul>
       </nav>
     </footer>
   </body>

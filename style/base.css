@@ -3,12 +3,36 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  padding: 0px 16px;
   width: 100vw;
+  background-color: lavender;
+  font-family: "Roboto", sans-serif;
+  color: rgb(30, 30, 30);
 }
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+p {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2rem;
+}
+
+.profile-header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  margin-right: 1rem;
+  border-radius: 1rem;
 }
