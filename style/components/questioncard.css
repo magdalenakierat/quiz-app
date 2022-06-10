@@ -25,7 +25,7 @@ article .material-symbols-outlined {
   background-color: transparent;
 }
 
-article .material-symbols-outlined.not-selected {
+article .material-symbols-outlined.card__bookmark--not-active {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
