@@ -21,6 +21,8 @@ article .material-symbols-outlined {
   color: darkslateblue;
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
   font-size: 2rem;
+  border: none;
+  background-color: transparent;
 }
 
 article .material-symbols-outlined.not-selected {
@@ -45,4 +47,8 @@ article .material-symbols-outlined.not-selected {
   margin: 0.5rem auto;
   font-size: 1rem;
   padding: 0.5rem 1rem;
+}
+
+.hidden {
+  display: none;
 }
