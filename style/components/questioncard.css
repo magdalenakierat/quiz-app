@@ -21,7 +21,7 @@ article .material-symbols-outlined {
   color: darkslateblue;
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
   font-size: 2rem;
-  border: 0px;
+  border: none;
   background-color: transparent;
 }
 
