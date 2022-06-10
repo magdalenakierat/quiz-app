@@ -1,8 +1,3 @@
-// let button = document.querySelector("[data-js=button1]");
-// button.addEventListener("click", () =>
-//   document.querySelector("[data-js=answer1]").classList.toggle("hidden")
-// );
-
 function toggleAnswer(button_name, answer_name) {
   const buttonIdentifier = "[data-js=" + button_name + "]";
   const clickButton = document.querySelector(buttonIdentifier);
@@ -16,3 +11,5 @@ function toggleAnswer(button_name, answer_name) {
 toggleAnswer("button1", "answer1");
 toggleAnswer("button2", "answer2");
 toggleAnswer("button3", "answer3");
+
+export { toggleAnswer };
