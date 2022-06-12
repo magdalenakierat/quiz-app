@@ -13,109 +13,231 @@
       <h1>Quiz-App</h1>
     </header>
     <main>
-      <article data-js="card">
-        <button data-js="bookmark" class="material-symbols-outlined">
-          bookmark
-        </button>
-        <h2>Question</h2>
-        <p class="question">
-          Question paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
+      <section class="page current-page" data-js="home">
+        <article data-js="card">
+          <button data-js="bookmark" class="material-symbols-outlined">
+            bookmark
+          </button>
+          <h2>Question</h2>
+          <p class="question">
+            Question paragraph Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
+            eius, libero impedit debitis odio asperiores iusto aliquid ipsam cum
+            facere amet aliquam illum quidem et!
+          </p>
+          <button data-js="answer-button" class="button">Button text</button>
+          <p data-js="answer" class="hidden">
+            Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
+            impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
+            aliquam illum quidem et!
+          </p>
+          <ul class="tag-list">
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+            <li>Tag 3</li>
+            <li>Tag 4</li>
+          </ul>
+        </article>
+        <article data-js="card">
+          <button data-js="bookmark" class="material-symbols-outlined">
+            bookmark
+          </button>
+          <h2>Question</h2>
+          <p class="question">
+            Question paragraph Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
+            eius, libero impedit debitis odio asperiores iusto aliquid ipsam cum
+            facere amet aliquam illum quidem et!
+          </p>
+          <button data-js="answer-button" class="button">Button text</button>
+          <p data-js="answer" class="hidden">
+            Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
+            impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
+            aliquam illum quidem et!
+          </p>
+          <ul class="tag-list">
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+            <li>Tag 3</li>
+            <li>Tag 4</li>
+          </ul>
+        </article>
+        <article data-js="card">
+          <button data-js="bookmark" class="material-symbols-outlined">
+            bookmark
+          </button>
+          <h2>Question</h2>
+          <p class="question">
+            Question paragraph Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
+            eius, libero impedit debitis odio asperiores iusto aliquid ipsam cum
+            facere amet aliquam illum quidem et!
+          </p>
+          <button data-js="answer-button" class="button">Button text</button>
+          <p data-js="answer" class="hidden">
+            Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
+            impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
+            aliquam illum quidem et!
+          </p>
+          <ul class="tag-list">
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+            <li>Tag 3</li>
+            <li>Tag 4</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="page" data-js="bookmarks">
+        <article data-js="card">
+          <button
+            data-js="bookmark"
+            class="material-symbols-outlined card__bookmark--active"
+          >
+            bookmark
+          </button>
+          <h2>Question</h2>
+          <p class="question">
+            Question paragraph Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
+            eius, libero impedit debitis odio asperiores iusto aliquid ipsam cum
+            facere amet aliquam illum quidem et!
+          </p>
+          <button data-js="answer-button" class="button">Button text</button>
+          <p data-js="answer" class="hidden">
+            Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
+            impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
+            aliquam illum quidem et!
+          </p>
+          <ul class="tag-list">
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+            <li>Tag 3</li>
+            <li>Tag 4</li>
+          </ul>
+        </article>
+        <article data-js="card">
+          <button
+            data-js="bookmark"
+            class="material-symbols-outlined card__bookmark--active"
+          >
+            bookmark
+          </button>
+          <h2>Question</h2>
+          <p class="question">
+            Question paragraph Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
+            eius, libero impedit debitis odio asperiores iusto aliquid ipsam cum
+            facere amet aliquam illum quidem et!
+          </p>
+          <button data-js="answer-button" class="button">Button text</button>
+          <p data-js="answer" class="hidden">
+            Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
+            impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
+            aliquam illum quidem et!
+          </p>
+          <ul class="tag-list">
+            <li>Tag 1</li>
+            <li>Tag 2</li>
+            <li>Tag 3</li>
+            <li>Tag 4</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="page" data-js="input">
+        <form aria-label="Create a new question card">
+          <label for="question">Add question (required)</label>
+          <textarea id="question" rows="5" required></textarea>
+
+          <label for="answer">Add answer (required)</label>
+          <textarea id="answer" rows="5" required></textarea>
+
+          <label for="tags">Add tags (required)</label>
+          <input id="tags" type="text" aria-describedby="add-tags" required />
+          <p id="add-tags">Add tags divided by comma.</p>
+
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="page" data-js="profile">
+        <header class="profile-header">
+          <img
+            class="profile-image"
+            src="https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Profile image"
+          />
+          <h2>Firstname Lastname</h2>
+        </header>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+          perferendis tempora voluptatem blanditiis voluptate illum placeat amet
+          excepturi ut dolor soluta vero, est at iste temporibus nemo porro
+          beatae sed!
         </p>
-        <button data-js="answer-button" class="button">Button text</button>
-        <p data-js="answer" class="hidden">
-          Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
-        </p>
+        <h3>Skills</h3>
         <ul class="tag-list">
           <li>Tag 1</li>
           <li>Tag 2</li>
           <li>Tag 3</li>
           <li>Tag 4</li>
         </ul>
-      </article>
-      <article data-js="card">
-        <button data-js="bookmark" class="material-symbols-outlined">
-          bookmark
-        </button>
-        <h2>Question</h2>
-        <p class="question">
-          Question paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
-        </p>
-        <button data-js="answer-button" class="button">Button text</button>
-        <p data-js="answer" class="hidden">
-          Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
-        </p>
-        <ul class="tag-list">
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-          <li>Tag 4</li>
-        </ul>
-      </article>
-      <article data-js="card">
-        <button data-js="bookmark" class="material-symbols-outlined">
-          bookmark
-        </button>
-        <h2>Question</h2>
-        <p class="question">
-          Question paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
-        </p>
-        <button data-js="answer-button" class="button">Button text</button>
-        <p data-js="answer" class="hidden">
-          Answer paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Tenetur a, enim perspiciatis dolor reprehenderit eius, libero
-          impedit debitis odio asperiores iusto aliquid ipsam cum facere amet
-          aliquam illum quidem et!
-        </p>
-        <ul class="tag-list">
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-          <li>Tag 4</li>
-        </ul>
-      </article>
+        <button class="button">Logout</button>
+      </section>
     </main>
     <footer>
-      <nav>
-        <ul class="navigation">
-          <li class="current">
-            <a href="./index.html"
+      <nav class="nav">
+        <a class="material-symbols-outlined" href="#home" data-js="link-home"
+          >home</a
+        >
+        <a
+          class="material-symbols-outlined"
+          href="#bookmarks"
+          data-js="link-bookmarks"
+          >bookmark</a
+        >
+        <a class="material-symbols-outlined" href="#input" data-js="link-input"
+          >edit</a
+        >
+        <a
+          class="material-symbols-outlined"
+          href="#profile"
+          data-js="link-profile"
+          >account_circle</a
+        >
+      </nav>
+      <!-- <nav>
+        <ul class="nav">
+          <li class="nav__item current">
+            <a href="#home" data-js="link-home"
               ><span class="material-symbols-outlined"> home </span></a
             >
           </li>
-          <li>
-            <a href="./bookmark.html"
+          <li class="nav__item">
+            <a href="#bookmarks" data-js="link-bookmarks"
               ><span class="material-symbols-outlined"> bookmark </span></a
             >
           </li>
-          <li>
-            <a href="./input.html"
+          <li class="nav__item">
+            <a href="#input" data-js="link-input"
               ><span class="material-symbols-outlined"> edit </span></a
             >
           </li>
-          <li>
-            <a href="./profile.html"
+          <li class="nav__item">
+            <a href="#profile" data-js="link-profile"
               ><span class="material-symbols-outlined">
                 account_circle
               </span></a
             >
           </li>
         </ul>
-      </nav>
+      </nav> -->
     </footer>
   </body>
 </html>
