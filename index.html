@@ -9,16 +9,17 @@
     <title>Quiz-App</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Quiz-App</h1>
     </header>
     <main>
       <section class="page current-page" data-js="home">
+        <h2>All your questions</h2>
         <article data-js="card">
           <button data-js="bookmark" class="material-symbols-outlined">
             bookmark
           </button>
-          <h2>Question</h2>
+          <h3>Question</h3>
           <p class="question">
             Question paragraph Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
@@ -43,7 +44,7 @@
           <button data-js="bookmark" class="material-symbols-outlined">
             bookmark
           </button>
-          <h2>Question</h2>
+          <h3>Question</h3>
           <p class="question">
             Question paragraph Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
@@ -68,7 +69,7 @@
           <button data-js="bookmark" class="material-symbols-outlined">
             bookmark
           </button>
-          <h2>Question</h2>
+          <h3>Question</h3>
           <p class="question">
             Question paragraph Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
@@ -92,6 +93,7 @@
       </section>
 
       <section class="page" data-js="bookmarks">
+        <h2>Bookmarks</h2>
         <article data-js="card">
           <button
             data-js="bookmark"
@@ -99,7 +101,7 @@
           >
             bookmark
           </button>
-          <h2>Question</h2>
+          <h3>Question</h3>
           <p class="question">
             Question paragraph Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
@@ -127,7 +129,7 @@
           >
             bookmark
           </button>
-          <h2>Question</h2>
+          <h3>Question</h3>
           <p class="question">
             Question paragraph Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Tenetur a, enim perspiciatis dolor reprehenderit
@@ -151,6 +153,8 @@
       </section>
 
       <section class="page" data-js="input">
+        <h2>Create new question</h2>
+
         <form aria-label="Create a new question card">
           <label for="question">Add question (required)</label>
           <textarea id="question" rows="5" required></textarea>
@@ -167,13 +171,15 @@
       </section>
 
       <section class="page" data-js="profile">
+        <h2>Profile</h2>
+
         <header class="profile-header">
           <img
             class="profile-image"
             src="https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Profile image"
           />
-          <h2>Firstname Lastname</h2>
+          <h3>Firstname Lastname</h3>
         </header>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
