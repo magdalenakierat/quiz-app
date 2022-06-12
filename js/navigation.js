@@ -11,34 +11,36 @@ function navigation() {
 
   const h1Content = document.querySelector("[data-js=h1-content]");
 
+  const allPages = document.querySelectorAll(".page");
+
   linkHome.addEventListener("click", () => {
+    allPages.forEach((page) => {
+      page.classList.remove("current-page");
+    });
     pageHome.classList.add("current-page");
-    pageBookmarks.classList.remove("current-page");
-    pageInput.classList.remove("current-page");
-    pageProfile.classList.remove("current-page");
     h1Content.innerHTML = "QUIZ APP";
   });
 
   linkBookmarks.addEventListener("click", () => {
-    pageHome.classList.remove("current-page");
+    allPages.forEach((page) => {
+      page.classList.remove("current-page");
+    });
     pageBookmarks.classList.add("current-page");
-    pageInput.classList.remove("current-page");
-    pageProfile.classList.remove("current-page");
     h1Content.innerHTML = "QUIZ APP – Bookmarks";
   });
 
   linkInput.addEventListener("click", () => {
-    pageHome.classList.remove("current-page");
-    pageBookmarks.classList.remove("current-page");
+    allPages.forEach((page) => {
+      page.classList.remove("current-page");
+    });
     pageInput.classList.add("current-page");
-    pageProfile.classList.remove("current-page");
     h1Content.innerHTML = "QUIZ APP – Create";
   });
 
   linkProfile.addEventListener("click", () => {
-    pageHome.classList.remove("current-page");
-    pageBookmarks.classList.remove("current-page");
-    pageInput.classList.remove("current-page");
+    allPages.forEach((page) => {
+      page.classList.remove("current-page");
+    });
     pageProfile.classList.add("current-page");
     h1Content.innerHTML = "QUIZ APP – Profile";
   });
