@@ -16,38 +16,3 @@
   color: whitesmoke;
   text-decoration: none;
 }
-
-/* 
-
-.nav {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: lavender;
-  padding: 0 1rem;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.nav .material-symbols-outlined {
-  padding: 1rem 1rem;
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-.nav__item {
-  list-style-type: none;
-}
-
-.nav__item a {
-  color: darkslateblue;
-}
-
-.nav__item.current {
-  background-color: darkslateblue;
-}
-
-.nav__item.current a {
-  color: white;
-} */

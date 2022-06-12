@@ -21,7 +21,6 @@ main {
 
 h2 {
   color: darkslateblue;
-  margin: 1.5rem 0;
 }
 
 p {
@@ -36,6 +35,7 @@ p {
   display: flex;
   justify-items: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .profile-image {

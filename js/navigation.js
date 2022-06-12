@@ -9,11 +9,14 @@ function navigation() {
   const pageInput = document.querySelector("[data-js=input]");
   const pageProfile = document.querySelector("[data-js=profile]");
 
+  const h1Content = document.querySelector("[data-js=h1-content]");
+
   linkHome.addEventListener("click", () => {
     pageHome.classList.add("current-page");
     pageBookmarks.classList.remove("current-page");
     pageInput.classList.remove("current-page");
     pageProfile.classList.remove("current-page");
+    h1Content.innerHTML = "QUIZ APP";
   });
 
   linkBookmarks.addEventListener("click", () => {
@@ -21,6 +24,7 @@ function navigation() {
     pageBookmarks.classList.add("current-page");
     pageInput.classList.remove("current-page");
     pageProfile.classList.remove("current-page");
+    h1Content.innerHTML = "QUIZ APP – Bookmarks";
   });
 
   linkInput.addEventListener("click", () => {
@@ -28,6 +32,7 @@ function navigation() {
     pageBookmarks.classList.remove("current-page");
     pageInput.classList.add("current-page");
     pageProfile.classList.remove("current-page");
+    h1Content.innerHTML = "QUIZ APP – Create";
   });
 
   linkProfile.addEventListener("click", () => {
@@ -35,6 +40,7 @@ function navigation() {
     pageBookmarks.classList.remove("current-page");
     pageInput.classList.remove("current-page");
     pageProfile.classList.add("current-page");
+    h1Content.innerHTML = "QUIZ APP – Profile";
   });
 }
 
