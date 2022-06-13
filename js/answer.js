@@ -5,10 +5,10 @@ function toggleAnswer() {
     const answer = card.querySelector("[data-js=answer]");
     answerButton.addEventListener("click", () => {
       answer.classList.toggle("hidden");
-      if (answerButton.innerHTML == "Show answer") {
-        answerButton.innerHTML = "Hide answer";
+      if (answer.classList.contains("hidden")) {
+        answerButton.innerText = "Show answer";
       } else {
-        answerButton.innerHTML = "Show answer";
+        answerButton.innerText = "Hide answer";
       }
     });
   });
