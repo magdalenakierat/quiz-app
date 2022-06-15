@@ -1,0 +1,22 @@
+{
+  "name": "coolest-quiz-app",
+  "version": "1.0.0",
+  "description": "quiz app about something cool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magdalenakierat/quiz-app.git"
+  },
+  "author": "Magdalena Kierat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magdalenakierat/quiz-app/issues"
+  },
+  "homepage": "https://github.com/magdalenakierat/quiz-app#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
