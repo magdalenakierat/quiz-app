@@ -4,6 +4,7 @@
   "description": "quiz app about something cool",
   "main": "index.js",
   "scripts": {
+    "eslint": "npx eslint \"**/*.js\"",
     "stylelint": "npx stylelint \"**/*.css\"",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/magdalenakierat/quiz-app#readme",
   "devDependencies": {
+    "eslint": "^8.17.0",
     "htmlhint": "^1.1.4",
     "prettier": "^2.7.0",
     "stylelint": "^14.9.1",
