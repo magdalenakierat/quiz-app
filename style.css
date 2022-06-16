@@ -1,7 +1,7 @@
-@import "./style/components/header.css";
-@import "./style/components/navigation.css";
-@import "./style/components/questioncard.css";
-@import "./style/components/form.css";
-@import "./style/base.css";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import './style/components/header.css';
+@import './style/components/navigation.css';
+@import './style/components/questioncard.css';
+@import './style/components/form.css';
+@import './style/base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');

@@ -1,11 +1,16 @@
-header {
+.header {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background-color: darkslateblue;
 }
 
 h1 {
-  padding-top: 1.5rem;
-  color: darkslateblue;
-  text-transform: uppercase;
+  color: whitesmoke;
+  padding: 1rem 0;
+  font-size: 1.2rem;
 }
