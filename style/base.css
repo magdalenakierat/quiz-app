@@ -20,8 +20,9 @@ main {
   width: 100%;
 }
 
-h2 {
+.card__headline {
   color: darkslateblue;
+  margin-bottom: 1rem;
 }
 
 p {
